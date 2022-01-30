@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  background-color: #eee;
+}
+
+.top {
+  background-color: #ffda60;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+
+  /* box-shadow */
+  box-shadow: 0 3px 2px 0 #bbb;
+}
+
+.top-left {
+  width: 100px;
+  height: 40px;
+  background-color: white;
+
+  /* border-radius */
+  border-radius: 3px;
+}
+
+.top-right {
+  display: flex;
+  width: 100px;
+  justify-content: space-around;
+}
+
+.top-right-circle {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+
+  /* border-radius */
+  border-radius: 50px;
+}
+.middle {
+  padding: 30px 30px;
+  display: flex;
+
+  /*折り返し*/
+  flex-wrap: wrap;
+}
+
+.middle-tile {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin: 10px;
+
+  /* border-radius */
+  border-radius: 3px;
+
+  /* box-shadow */
+  box-shadow: 1px 2px 2px 0 #bbb;
+}
+
+.bottom {
+  height: 50px;
+  background-color: #010264;
+}
